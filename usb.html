@@ -4,13 +4,30 @@
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>QR Code Scanner</title>
+
+    <style>
+        #container {
+            margin: 20px auto;
+            display: table;
+        }
+
+        textarea {
+            height: 100px;
+            width: 600px;
+        }
+
+      </style>
 </head>
 <body>
 
-    <h1>QR Code Scanner</h1>
-    <button id="connect">Connect Scanner</button>
-    <p id="status">Scanner not connected</p>
-    <pre id="output"></pre>
+        <div id="container">
+            <h1>QR Code Scanner for Windows in USB Mode</h1>
+            <button id="connect">Connect Scanner</button>
+            <p id="status">Scanner not connected</p>
+            <textarea id="output"></textarea>
+
+        </div>
+   
 
     <script src="js/scannerUSB.js"></script>
 
