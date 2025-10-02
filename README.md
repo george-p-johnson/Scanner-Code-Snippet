@@ -1,5 +1,5 @@
 
-Scanner codes cheat sheet. Here are a few things we typically do for a Salesforce event.
+Scanner codes cheat sheet. Here are a few things we typically do for a Salesforce event. The full manual is in the assets folder.
 
 1. Factory reset
 2. Enable URL scanning on
